@@ -8,7 +8,7 @@ while(order != 'MN' && order != 'sephora')
 var iteamorded='';
 if (order=='MN')
 {  
-      iteamorded = '<img src="https://rukminim1.flixcart.com/image/612/612/kjabs7k0-0/combo-kit/o/u/o/combo-kit-make-up-kit-defining-eyeliner-lipliner-24-mn-original-imafywdaqnfcadgh.jpeg?q=70" />';
+      iteamorded = '<img src="https://rukminim1.flixcart.com/image/612/612/kjabs7k0-0/combo-kit/o/u/o/combo-kit-make-up-kit-defining-eyeliner-lipliner-24-mn-original-imafywdaqnfcadgh.jpeg?q=70"/>';
 }
 else 
 {    
