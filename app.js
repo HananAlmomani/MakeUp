@@ -1,10 +1,16 @@
 var names = prompt("Please Enter your name ?")
 document.write('Welcome '+ names )
 var order = prompt("What do you want MN OR sephora ? ");
-while(order != 'MN' && order != 'sephora')
-{   
-     order = prompt("What do you want MN OR sephora ? ");  
+
+function askUser()
+{
+      while(order != 'MN' && order != 'sephora')
+      {   
+      order = prompt("What do you want MN OR sephora ? ");  
+      }
 }
+
+askUser();
 var iteamorded='';
 if (order=='MN')
 {  
@@ -16,8 +22,14 @@ else
 }
 var NumofOrderd = prompt('How many piece do you want ?')
 var Result ='';
-for (var i=0 ; i<NumofOrderd ; i++)
-{  
-      Result=Result+iteamorded;
+function displayImages()
+{
+      for (var i=0 ; i<NumofOrderd ; i++)
+      {  
+            Result=Result+iteamorded;
+      }
+      document.write(Result);
 }
-document.write(Result);
+
+displayImages();
+
